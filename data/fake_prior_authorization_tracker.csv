@@ -1,0 +1,11 @@
+Case ID,Payer,Service Type,Appointment Date,Authorization Required,Authorization Submitted,Payer Response Due,Current Status,Missing Information,Escalation Owner,Risk Level,Next Action,Claim Readiness
+PA-001,BlueCross Imaging,MRI Lumbar Spine,2026-05-18,Yes,Yes,2026-05-13,Pending payer response,None,Vera,Moderate,Follow up if no response by due date,Not ready
+PA-002,Aetna Health,CT Abdomen,2026-05-16,Yes,No,2026-05-11,Documentation incomplete,Clinical notes missing,Nora,High,Request clinical documentation before submission,Not ready
+PA-003,UnitedCare,Physical Therapy Evaluation,2026-05-20,No,N/A,N/A,Eligibility verified,None,Ellie,Low,Confirm claim readiness,Ready
+PA-004,Cigna Choice,Cardiology Stress Test,2026-05-15,Yes,Yes,2026-05-10,Overdue payer response,Payer response delayed,Vera,High,Escalate payer follow-up today,Not ready
+PA-005,Humana Advantage,Specialist Consult,2026-05-22,Yes,No,2026-05-17,Insurance mismatch,Incorrect member ID,Ellie,High,Correct insurance data before authorization submission,Not ready
+PA-006,Medicare Advantage Plus,Outpatient Procedure,2026-05-24,Yes,Yes,2026-05-19,Pending clinical review,None,Vera,Moderate,Monitor payer response and verify documentation match,Not ready
+PA-007,Medicaid Managed Care,Diagnostic Ultrasound,2026-05-14,Yes,Yes,2026-05-09,Approval received,Approval not documented,Miles,High,Document authorization number before claim release,Not ready
+PA-008,Commercial Health Plan,Initial Office Visit,2026-05-21,No,N/A,N/A,Demographics incomplete,Missing date of birth,Ellie,Moderate,Complete demographic field before claim creation,Not ready
+PA-009,BlueCross Imaging,MRI Knee,2026-05-19,Yes,Yes,2026-05-14,Pending payer response,None,Vera,Moderate,Track response and confirm authorization number,Not ready
+PA-010,Cigna Choice,Outpatient Surgery,2026-05-17,Yes,No,2026-05-12,No escalation owner assigned,Missing owner assignment,Nora,High,Assign escalation owner and submit authorization,Not ready
